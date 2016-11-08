@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		537819F41DD2814400A1F39E /* KnightRiderThemeSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 537819F31DD2814400A1F39E /* KnightRiderThemeSong.mp3 */; };
+		53FA8DDD1DCDFD1C00FA713F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FA8DDC1DCDFD1C00FA713F /* AppDelegate.swift */; };
+		53FA8DDF1DCDFD1C00FA713F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FA8DDE1DCDFD1C00FA713F /* ViewController.swift */; };
+		53FA8DE41DCDFD1C00FA713F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53FA8DE21DCDFD1C00FA713F /* Main.storyboard */; };
+		53FA8DF21DCE0E8000FA713F /* ToucharBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FA8DF11DCE0E8000FA713F /* ToucharBarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		537819F31DD2814400A1F39E /* KnightRiderThemeSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KnightRiderThemeSong.mp3; sourceTree = "<group>"; };
+		53FA8DD91DCDFD1C00FA713F /* KnightTouchBar2000.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnightTouchBar2000.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53FA8DDC1DCDFD1C00FA713F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53FA8DDE1DCDFD1C00FA713F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53FA8DE31DCDFD1C00FA713F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53FA8DE51DCDFD1C00FA713F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53FA8DF11DCE0E8000FA713F /* ToucharBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToucharBarController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53FA8DD61DCDFD1C00FA713F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53FA8DD01DCDFD1C00FA713F = {
+			isa = PBXGroup;
+			children = (
+				53FA8DDB1DCDFD1C00FA713F /* KnightTouchBar2000 */,
+				53FA8DDA1DCDFD1C00FA713F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53FA8DDA1DCDFD1C00FA713F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53FA8DD91DCDFD1C00FA713F /* KnightTouchBar2000.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53FA8DDB1DCDFD1C00FA713F /* KnightTouchBar2000 */ = {
+			isa = PBXGroup;
+			children = (
+				537819F31DD2814400A1F39E /* KnightRiderThemeSong.mp3 */,
+				53FA8DDC1DCDFD1C00FA713F /* AppDelegate.swift */,
+				53FA8DDE1DCDFD1C00FA713F /* ViewController.swift */,
+				53FA8DF11DCE0E8000FA713F /* ToucharBarController.swift */,
+				53FA8DE21DCDFD1C00FA713F /* Main.storyboard */,
+				53FA8DE51DCDFD1C00FA713F /* Info.plist */,
+			);
+			path = KnightTouchBar2000;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53FA8DD81DCDFD1C00FA713F /* KnightTouchBar2000 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53FA8DE81DCDFD1C00FA713F /* Build configuration list for PBXNativeTarget "KnightTouchBar2000" */;
+			buildPhases = (
+				53FA8DD51DCDFD1C00FA713F /* Sources */,
+				53FA8DD61DCDFD1C00FA713F /* Frameworks */,
+				53FA8DD71DCDFD1C00FA713F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KnightTouchBar2000;
+			productName = KnightTouchBar2000;
+			productReference = 53FA8DD91DCDFD1C00FA713F /* KnightTouchBar2000.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53FA8DD11DCDFD1C00FA713F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Anthony Da Mota";
+				TargetAttributes = {
+					53FA8DD81DCDFD1C00FA713F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = S35472353D;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 53FA8DD41DCDFD1C00FA713F /* Build configuration list for PBXProject "KnightTouchBar2000" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53FA8DD01DCDFD1C00FA713F;
+			productRefGroup = 53FA8DDA1DCDFD1C00FA713F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53FA8DD81DCDFD1C00FA713F /* KnightTouchBar2000 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53FA8DD71DCDFD1C00FA713F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537819F41DD2814400A1F39E /* KnightRiderThemeSong.mp3 in Resources */,
+				53FA8DE41DCDFD1C00FA713F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53FA8DD51DCDFD1C00FA713F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53FA8DF21DCE0E8000FA713F /* ToucharBarController.swift in Sources */,
+				53FA8DDF1DCDFD1C00FA713F /* ViewController.swift in Sources */,
+				53FA8DDD1DCDFD1C00FA713F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53FA8DE21DCDFD1C00FA713F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53FA8DE31DCDFD1C00FA713F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53FA8DE61DCDFD1C00FA713F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53FA8DE71DCDFD1C00FA713F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		53FA8DE91DCDFD1C00FA713F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S35472353D;
+				INFOPLIST_FILE = KnightTouchBar2000/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnthonyDaMota.KnightTouchBar2000;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		53FA8DEA1DCDFD1C00FA713F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S35472353D;
+				INFOPLIST_FILE = KnightTouchBar2000/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnthonyDaMota.KnightTouchBar2000;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53FA8DD41DCDFD1C00FA713F /* Build configuration list for PBXProject "KnightTouchBar2000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53FA8DE61DCDFD1C00FA713F /* Debug */,
+				53FA8DE71DCDFD1C00FA713F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53FA8DE81DCDFD1C00FA713F /* Build configuration list for PBXNativeTarget "KnightTouchBar2000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53FA8DE91DCDFD1C00FA713F /* Debug */,
+				53FA8DEA1DCDFD1C00FA713F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53FA8DD11DCDFD1C00FA713F /* Project object */;
+}
