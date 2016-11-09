@@ -16,7 +16,7 @@ KITT 2000 chaser animation for your new MacBook Pro TouchBar. You knew you wante
 ## Other awesome TouchBar apps
 
 * [TouchFart][touchfart] - by @hungtruong
-* [NyanCat][nyancat] - by @kxxoling
+* [NyanCat][nyancat] - by @avatsaev
 
 [touchfart]: <https://github.com/hungtruong/TouchFart>
-[nyancat]: <https://github.com/kxxoling/TouchBarNyanCat>
+[nyancat]: <https://github.com/avatsaev/touchbar_nyancat>
