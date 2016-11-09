@@ -18,12 +18,13 @@ fileprivate extension NSTouchBarItemIdentifier {
 }
 
 @available(OSX 10.12.1, *)
-class ToucharBarController: NSWindowController, NSTouchBarDelegate, CAAnimationDelegate {
+class TouchBarController: NSWindowController, NSTouchBarDelegate, CAAnimationDelegate {
     
     let theKnightView = NSView()
 
     override func windowDidLoad() {
         super.windowDidLoad()
+
         handleMusic()
     }
     
