@@ -1,6 +1,6 @@
 # KnightTouchBar2000
 
-KITT 2000 chaser animation for your new MacBook Pro TouchBar. You knew you need it.
+KITT 2000 chaser animation for your new MacBook Pro TouchBar. You knew you wanted it.
 
 ![KnightTouchBar 2000](screenshot.gif?raw=true "Screenshot")
 
