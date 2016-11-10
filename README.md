@@ -1,6 +1,10 @@
-# KnightTouchBar2000
+# Knight TouchBar 2000
 
 KITT 2000 chaser animation for your new MacBook Pro TouchBar. You knew you wanted it.
+
+![http://i.imgur.com/Z5F1k42.jpg](http://i.imgur.com/Z5F1k42.jpg "Header")
+
+## Screenshot
 
 ![KnightTouchBar 2000](screenshot.gif?raw=true "Screenshot")
 
