@@ -4,6 +4,10 @@ KITT 2000 chaser animation for your new MacBook Pro TouchBar. You knew you wante
 
 ![http://i.imgur.com/Z5F1k42.jpg](http://i.imgur.com/Z5F1k42.jpg "Header")
 
+## Usage
+
+Simply open the KnightTouchBar2000 executable file in the repository, or open KnightTouchBar2000.xcodeproj in XCode to build yourself.
+
 ## Screenshot
 
 ![KnightTouchBar 2000](screenshot.gif?raw=true "Screenshot")
