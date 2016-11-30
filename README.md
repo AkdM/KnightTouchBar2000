@@ -31,7 +31,14 @@ However, you can still enjoy this beautiful app by [checking this app][touchbar-
 * [TouchFart][touchfart] - by @hungtruong
 * [NyanCat][nyancat] - by @avatsaev
 
+## Follow me!
+
+* [Website][anthony-website] - damota.me
+* [Twitter][anthony-twitter] - @AkdM_
+
 [touchfart]: <https://github.com/hungtruong/TouchFart>
 [nyancat]: <https://github.com/avatsaev/touchbar_nyancat>
 [latest-release]: <https://github.com/AkdM/KnightTouchBar2000/releases/latest>
 [touchbar-launcher]: <https://github.com/zats/TouchBarLauncher>
+[anthony-website]: <https://www.damota.me>
+[anthony-twitter]: <https://www.twitter.com/AkdM_>
