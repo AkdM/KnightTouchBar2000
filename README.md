@@ -1,4 +1,4 @@
-# Knight TouchBar 2000
+# Knight TouchBar 2000 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://PayPal.Me/AnthonyDaMota)
 
 KITT 2000 chaser animation for your new MacBook Pro TouchBar. You knew you wanted it.
 
