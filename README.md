@@ -26,6 +26,10 @@ However, you can still enjoy this beautiful app by [checking this app][touchbar-
 * Chaser animation
 * Knight Rider theme song
 
+## Buy me a coffee for all that work!
+
+You think that my work deserves moar coffee? It would be kind from you if you donate a coffee or two (or 3 or 4…). [Click here!][paypal]
+
 ## Other awesome TouchBar apps
 
 * [TouchFart][touchfart] - by @hungtruong
@@ -42,3 +46,4 @@ However, you can still enjoy this beautiful app by [checking this app][touchbar-
 [touchbar-launcher]: <https://github.com/zats/TouchBarLauncher>
 [anthony-website]: <https://www.damota.me>
 [anthony-twitter]: <https://www.twitter.com/AkdM_>
+[paypal]: <https://PayPal.Me/AnthonyDaMota>
