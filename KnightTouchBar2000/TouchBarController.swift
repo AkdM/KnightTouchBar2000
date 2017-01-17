@@ -24,11 +24,9 @@ class TouchBarController: NSWindowController, NSTouchBarDelegate, CAAnimationDel
 
     override func windowDidLoad() {
         super.windowDidLoad()
-
-        handleMusic()
     }
     
-    @available(OSX 10.12.1, *)
+    @available(OSX 10.12.2, *)
     override func makeTouchBar() -> NSTouchBar? {
         let touchBar = NSTouchBar()
         touchBar.delegate = self
@@ -40,7 +38,7 @@ class TouchBarController: NSWindowController, NSTouchBarDelegate, CAAnimationDel
         
     }
     
-    @available(OSX 10.12.1, *)
+    @available(OSX 10.12.2, *)
     func touchBar(_ touchBar: NSTouchBar, makeItemForIdentifier identifier: NSTouchBarItemIdentifier) -> NSTouchBarItem? {
         
         let wholeTouchBar = NSCustomTouchBarItem(identifier: identifier)
@@ -116,13 +114,6 @@ class TouchBarController: NSWindowController, NSTouchBarDelegate, CAAnimationDel
         theLEDAnim.delegate = self
         
         return theLEDAnim
-    }
-    
-    func handleMusic() {
-        guard let music = NSSound(named: "KnightRiderThemeSong") else {
-            return
-        }
-        music.play()
     }
 }
 

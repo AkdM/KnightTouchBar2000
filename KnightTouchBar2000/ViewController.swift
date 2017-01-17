@@ -1,3 +1,4 @@
+
 //
 //  ViewController.swift
 //  KnightTouchBar2000
@@ -10,7 +11,10 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    @IBOutlet weak var scannerCheckbox: NSButton!
     @IBOutlet weak var kittCar: NSImageView!
+    let scannerSound = NSSound(named: "KITT_scanner")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -19,6 +23,25 @@ class ViewController: NSViewController {
         kittCar.image = NSImage(named: "kitt_car.gif")
         kittCar.frame = CGRect(x: 0, y: 0, width: 400, height: 300)
         kittCar.animates = true
+        
+        scannerSound?.loops = true
+        isScannerChecked()
+    }
+    
+    @IBAction func setScannerMusic(_ sender: Any) {
+        isScannerChecked()
+    }
+    
+    func isScannerChecked() {
+        
+        switch scannerCheckbox.state {
+        case NSOnState:
+            scannerCheckbox.title = "Scanner sound on"
+            scannerSound?.play()
+        default:
+            scannerCheckbox.title = "Scanner sound off"
+            scannerSound?.stop()
+        }
     }
 
     override var representedObject: Any? {

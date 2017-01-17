@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		537819F41DD2814400A1F39E /* KnightRiderThemeSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 537819F31DD2814400A1F39E /* KnightRiderThemeSong.mp3 */; };
+		534E9E551E2E319100E94FD7 /* KITT_scanner.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 534E9E541E2E319100E94FD7 /* KITT_scanner.mp3 */; };
+		534E9E5F1E2E393600E94FD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 534E9E5E1E2E393600E94FD7 /* Images.xcassets */; };
 		537819F81DD3166A00A1F39E /* kitt_car.gif in Resources */ = {isa = PBXBuildFile; fileRef = 537819F71DD3166A00A1F39E /* kitt_car.gif */; };
 		53FA8DDD1DCDFD1C00FA713F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FA8DDC1DCDFD1C00FA713F /* AppDelegate.swift */; };
 		53FA8DDF1DCDFD1C00FA713F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FA8DDE1DCDFD1C00FA713F /* ViewController.swift */; };
@@ -16,7 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		537819F31DD2814400A1F39E /* KnightRiderThemeSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KnightRiderThemeSong.mp3; sourceTree = "<group>"; };
+		534E9E541E2E319100E94FD7 /* KITT_scanner.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KITT_scanner.mp3; sourceTree = "<group>"; };
+		534E9E5E1E2E393600E94FD7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		537819F71DD3166A00A1F39E /* kitt_car.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kitt_car.gif; sourceTree = "<group>"; };
 		53FA8DD91DCDFD1C00FA713F /* KnightTouchBar2000.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnightTouchBar2000.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53FA8DDC1DCDFD1C00FA713F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,13 +58,14 @@
 		53FA8DDB1DCDFD1C00FA713F /* KnightTouchBar2000 */ = {
 			isa = PBXGroup;
 			children = (
+				534E9E541E2E319100E94FD7 /* KITT_scanner.mp3 */,
 				537819F71DD3166A00A1F39E /* kitt_car.gif */,
-				537819F31DD2814400A1F39E /* KnightRiderThemeSong.mp3 */,
 				53FA8DDC1DCDFD1C00FA713F /* AppDelegate.swift */,
 				53FA8DDE1DCDFD1C00FA713F /* ViewController.swift */,
 				53FA8DF11DCE0E8000FA713F /* TouchBarController.swift */,
 				53FA8DE21DCDFD1C00FA713F /* Main.storyboard */,
 				53FA8DE51DCDFD1C00FA713F /* Info.plist */,
+				534E9E5E1E2E393600E94FD7 /* Images.xcassets */,
 			);
 			path = KnightTouchBar2000;
 			sourceTree = "<group>";
@@ -94,7 +97,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Anthony Da Mota";
 				TargetAttributes = {
 					53FA8DD81DCDFD1C00FA713F = {
@@ -106,7 +109,7 @@
 				};
 			};
 			buildConfigurationList = 53FA8DD41DCDFD1C00FA713F /* Build configuration list for PBXProject "KnightTouchBar2000" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -128,7 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				537819F41DD2814400A1F39E /* KnightRiderThemeSong.mp3 in Resources */,
+				534E9E5F1E2E393600E94FD7 /* Images.xcassets in Resources */,
+				534E9E551E2E319100E94FD7 /* KITT_scanner.mp3 in Resources */,
 				537819F81DD3166A00A1F39E /* kitt_car.gif in Resources */,
 				53FA8DE41DCDFD1C00FA713F /* Main.storyboard in Resources */,
 			);
@@ -179,6 +183,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -228,6 +233,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
