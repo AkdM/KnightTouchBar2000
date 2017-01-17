@@ -30,6 +30,13 @@ However, you can still enjoy this beautiful app by [checking this app][touchbar-
 
 You think that my work deserves moar coffee? It would be kind from you if you donate a coffee or two (or 3 or 4…). [Click here!][paypal]
 
+## Changelog
+
+* v1.1:
+	* Added the app icon, way cooler now!
+	* Switched from the K2000 ©ed theme song to the scanner sound
+* v1.0 (Initial release)
+
 ## Other awesome TouchBar apps
 
 * [TouchFart][touchfart] - by @hungtruong
