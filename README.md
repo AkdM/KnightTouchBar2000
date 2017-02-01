@@ -41,6 +41,7 @@ You think that my work deserves moar coffee? It would be kind from you if you do
 
 * [TouchFart][touchfart] - by @hungtruong
 * [NyanCat][nyancat] - by @avatsaev
+* [CylonTouchbar][cylontouchbar] - by @radzima
 
 ## Follow me!
 
@@ -49,6 +50,7 @@ You think that my work deserves moar coffee? It would be kind from you if you do
 
 [touchfart]: <https://github.com/hungtruong/TouchFart>
 [nyancat]: <https://github.com/avatsaev/touchbar_nyancat>
+[cylontouchbar]: <https://github.com/radzima/CylonTouchbar>
 [latest-release]: <https://github.com/AkdM/KnightTouchBar2000/releases/latest>
 [touchbar-launcher]: <https://github.com/zats/TouchBarLauncher>
 [anthony-website]: <https://www.damota.me>
