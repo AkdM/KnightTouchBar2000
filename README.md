@@ -45,7 +45,6 @@ You think that my work deserves moar coffee? It would be kind from you if you do
 
 ## Follow me!
 
-* [Website][anthony-website] - damota.me
 * [Twitter][anthony-twitter] - @AkdM_
 
 [touchfart]: <https://github.com/hungtruong/TouchFart>
@@ -53,6 +52,5 @@ You think that my work deserves moar coffee? It would be kind from you if you do
 [cylontouchbar]: <https://github.com/radzima/CylonTouchbar>
 [latest-release]: <https://github.com/AkdM/KnightTouchBar2000/releases/latest>
 [touchbar-launcher]: <https://github.com/zats/TouchBarLauncher>
-[anthony-website]: <https://www.damota.me>
 [anthony-twitter]: <https://www.twitter.com/AkdM_>
 [paypal]: <https://PayPal.Me/AnthonyDaMota>
