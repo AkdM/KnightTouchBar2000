@@ -8,13 +8,15 @@
 
 import Cocoa
 
-fileprivate extension NSTouchBarCustomizationIdentifier {
+@available(OSX 10.12.2, *)
+fileprivate extension NSTouchBar.CustomizationIdentifier {
     
-    static let knightTouchBar = NSTouchBarCustomizationIdentifier("com.AnthonyDaMota.KnightTouchBar2000")
+    static let knightTouchBar = NSTouchBar.CustomizationIdentifier("com.AnthonyDaMota.KnightTouchBar2000")
 }
 
-fileprivate extension NSTouchBarItemIdentifier {
-    static let knightRider = NSTouchBarItemIdentifier("knightRider")
+@available(OSX 10.12.2, *)
+fileprivate extension NSTouchBarItem.Identifier {
+    static let knightRider = NSTouchBarItem.Identifier("knightRider")
 }
 
 @available(OSX 10.12.1, *)
@@ -30,7 +32,7 @@ class TouchBarController: NSWindowController, NSTouchBarDelegate, CAAnimationDel
     override func makeTouchBar() -> NSTouchBar? {
         let touchBar = NSTouchBar()
         touchBar.delegate = self
-        touchBar.customizationIdentifier = NSTouchBarCustomizationIdentifier.knightTouchBar
+        touchBar.customizationIdentifier = NSTouchBar.CustomizationIdentifier.knightTouchBar
         touchBar.defaultItemIdentifiers = [.knightRider]
         touchBar.customizationAllowedItemIdentifiers = [.knightRider]
         
@@ -39,12 +41,12 @@ class TouchBarController: NSWindowController, NSTouchBarDelegate, CAAnimationDel
     }
     
     @available(OSX 10.12.2, *)
-    func touchBar(_ touchBar: NSTouchBar, makeItemForIdentifier identifier: NSTouchBarItemIdentifier) -> NSTouchBarItem? {
+    func touchBar(_ touchBar: NSTouchBar, makeItemForIdentifier identifier: NSTouchBarItem.Identifier) -> NSTouchBarItem? {
         
         let wholeTouchBar = NSCustomTouchBarItem(identifier: identifier)
         
         switch identifier {
-        case NSTouchBarItemIdentifier.knightRider:
+        case NSTouchBarItem.Identifier.knightRider:
 
             self.theKnightView.wantsLayer = true
             let theLEDs = CAShapeLayer()
@@ -128,14 +130,16 @@ extension NSBezierPath {
         for i in 0 ..< self.elementCount {
             let type = self.element(at: i, associatedPoints: &points)
             switch type {
-            case .moveToBezierPathElement:
+            case .moveTo:
                 path.move(to: points[0])
-            case .lineToBezierPathElement:
+            case .lineTo:
                 path.addLine(to: points[0])
-            case .curveToBezierPathElement:
+            case .curveTo:
                 path.addCurve(to: points[2], control1: points[0], control2: points[1])
-            case .closePathBezierPathElement:
+            case .closePath:
                 path.closeSubpath()
+            @unknown default:
+                fatalError()
             }
         }
         
