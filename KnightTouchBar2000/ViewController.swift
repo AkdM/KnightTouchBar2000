@@ -35,7 +35,7 @@ class ViewController: NSViewController {
     func isScannerChecked() {
         
         switch scannerCheckbox.state {
-        case NSOnState:
+        case NSControl.StateValue.on:
             scannerCheckbox.title = "Scanner sound on"
             scannerSound?.play()
         default:
