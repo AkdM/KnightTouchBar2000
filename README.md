@@ -32,6 +32,9 @@ You think that my work deserves moar coffee? It would be kind from you if you do
 
 ## Changelog
 
+* v1.1.2:
+	* Updated to Swift 5
+
 * v1.1:
 	* Added the app icon, way cooler now!
 	* Switched from the K2000 ©ed theme song to the scanner sound
