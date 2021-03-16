@@ -16,6 +16,8 @@ KITT 2000 chaser animation for your new MacBook Pro TouchBar. You knew you wante
 
 If you don't want to mess with all the files, you can simply [download the latest release of the app here][latest-release]. Launch the app and you're good to go.
 
+Edit: not anymore, you will need to compile it yourself. Sorry!
+
 ### But wait, I don't have the brand new MacbookPro!
 
 Don't worry, neither do I.
